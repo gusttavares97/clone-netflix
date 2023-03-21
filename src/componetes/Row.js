@@ -22,7 +22,7 @@ function Row({title, path}) {
 <div className='row-card'>
   {movies?.map(movie =>{
     return(
-      <img key={movie} src={movie.poster_path} alt={movie.name}></img>
+      <img key={movie.id} src={movie.poster_path} alt={movie.name}></img>
     )
   })}
 </div>
