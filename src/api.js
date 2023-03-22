@@ -4,7 +4,7 @@ const categories =[
     {
         name:"treding",
         title: "em alta",
-        path:`/trending/all/week?api_key=${api_key}&language=pt-BR`,
+        path:`/trending/all/week?api_key=${api_key}&language=pt-br`,
     },
     {
         name:"netflixOriginals",
@@ -33,6 +33,9 @@ const categories =[
     },
 
 ];
+
+
+
 
 export const getMovies = async (path) =>{
     
