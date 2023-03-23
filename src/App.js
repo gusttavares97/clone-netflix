@@ -2,12 +2,11 @@ import './App.css';
 import Row from './componetes/Row';
 import categories from './api';
 import Banner from './componetes/Banner';
-
+import Nav from './componetes/Nav' 
 
 function App() {
   return <div className='App'>
-    {/*navebar*/}
-        {/*destaques*/}
+          <Nav />
           <Banner/>
           {categories.map((category, index) =>{
             return<Row 
