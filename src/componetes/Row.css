@@ -10,7 +10,12 @@
     padding: 20px;
 }
 
+.row-card::-webkit-scrollbar{
+   display: none;
+}
+
 .img-card{
+object-fit: contain;    
 max-height: 130px;
 margin-bottom: 10px;
 transition: transform 450ms;
@@ -19,4 +24,12 @@ transition: transform 450ms;
 .img-card:hover{
 transform: scale(1.08);
 }
+
+.img-card-largue{
+    object-fit: contain;    
+    max-height: 260px;
+    margin-bottom: 10px;
+    transition: transform 450ms;
+    }
+    
 
